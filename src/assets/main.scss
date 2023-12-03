@@ -1,0 +1,27 @@
+$backgroundColor: #000;
+$textColor: #fff;
+$foreground1: #054240;
+$foreground2: #4b0561;
+$foreground3: #4f0c06;
+$foreground4: #373737;
+
+html, body, #app {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	box-sizing: border-box;
+	background-color: $backgroundColor;
+	
+	color: $textColor;
+}
+#app {
+	.el-header {
+		padding: 0;
+	}
+
+	.el-container {
+		height: 100%;
+	}
+}
